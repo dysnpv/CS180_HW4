@@ -56,6 +56,7 @@ def Q2_solution(n, K, x):
             min_L = L[i][K] + s
     return min_L
 
+# Run this function to verify my solution returns the correct answer.
 def verification():
     cnt = 5
     for t in range(cnt):
